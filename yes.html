@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-gif-embed-two">
+    <img src="https://media.tenor.com/MFubz4ZdPw8AAAAi/kafran.gif">
+  </div>
+  <div class="love-text-two">
+    <h1>hehe I KNEW IT :D</h1>
+    <p>Yay, I love you too! }}}</p>
+  </div>
+  
+  <input id="hidden-input" style="opacity:0;position:absolute;" autofocus>
+
+  <script>
+    const code = "love";
+    const input = document.getElementById("hidden-input");
+
+    input.addEventListener("input", e => {
+      if (e.target.value.toLowerCase().includes(code)) {
+        location.href = "letter.html";
+      }
+    });
+
+    document.addEventListener("click", () => input.focus());
+  </script>
+</body>
+</html>
