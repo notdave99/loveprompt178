@@ -8,8 +8,8 @@
 }
 
 body {
-  height: 100px;
-  width: 50px;
+  height: 100%;
+  width: 100%;
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
@@ -39,12 +39,16 @@ body {
   max-width: 400px;
   width:45%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .container-gif-embed-three img {
   max-width: 400px;
   width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .btn {
 display: flex;
@@ -56,6 +60,8 @@ justify-content: center;
 .container-gif-embed-final img {
   max-width: 400px;
   width: 65%;
+  display: block;
+  margin: 0 auto;
 }
 .btn a {
   text-decoration: none;
