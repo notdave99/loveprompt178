@@ -23,6 +23,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -32,11 +33,12 @@ body {
   align-items: center;
   width: 100%;
   max-width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 
 .container-gif-embed-two img {
-  max-width: 400px;
+  max-width: 90%;
   width:45%;
   height: auto;
   display: block;
@@ -44,7 +46,7 @@ body {
 }
 
 .container-gif-embed-three img {
-  max-width: 400px;
+  max-width: 90%;
   width: 100%;
   height: auto;
   display: block;
@@ -84,3 +86,22 @@ justify-content: center;
   padding: 10px 25px;
   border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+  .container-gif-embed-two img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-gif-embed-three img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-gif-embed-final img {
+    max-width: 70%;
+  }
+}
+
