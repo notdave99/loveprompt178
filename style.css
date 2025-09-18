@@ -6,16 +6,19 @@
   font-size: xx-large;
 }
 
-body {
+html, body {
   height: 100%;
-  width: 100%;
-  min-height: 100%;
-  min-width: 100%;
+  margin: 0;
+}
+
+body {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: center
+  align-items: center;  
   flex-direction: column;
-  background-color:blanchedalmond;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  text-align: center;
 }
 
 .container-gif-embed {
@@ -83,4 +86,5 @@ justify-content: center;
   padding: 10px 25px;
   border-radius: 8px;
 }
+
 
