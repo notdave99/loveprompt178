@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  place-items: center;
+  box-sizing: border-box;
+  font-family: Journal;
+  font-size: xx-large;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color:blanchedalmond;
+}
+
+.container-gif-embed {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-gif-embed-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.container-gif-embed-two img {
+  max-width: 400px;
+  width:45%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-gif-embed-three img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+display: flex;
+gap: 75px;
+justify-content: center; 
+
+}
+
+.container-gif-embed-final img {
+  max-width: 400px;
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+
+}
+
+.love-text-two {
+  text-align: center;
+  width: 100%;
+  
+}
+
+.special-letter {
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
